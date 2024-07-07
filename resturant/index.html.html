@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <script src="https://cdn.tailwindcss.com"></script>
+      <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <title>Resturant</title>
+   
+</head>
+<body>
+
+    <nav class="bg-[#352F2C] text-white sticky top-0  ">
+        <div class="w-screen h-12 flex">
+            <div class="w-1/2 h-12 py-1 pl-16 font-serif text-4xl font-bold italic ">Foodies</div>
+            <div class="w-1/2 h-12">
+                <ul class="flex space-x-10 pl-[25px] py-3 font-bold text-xl 	">
+                    <li class="hover:scale-105"><a href="#">Home</a> </li>
+                    <li class="hover:scale-105"> <a href="#about">About</a> </li>
+                    <li class="hover:scale-105"> <a href="#menu">Menu</a> </li>
+                    <li class="hover:scale-105"> <a href="#contact us">Contact Us</a> </li>
+                    <li class="hover:scale-105"> <a href="#reviews">Reviews</a> </li>
+                    <li class="hover:scale-105"> <a href="#login">Login</a> </li>
+                </ul>  
+            </div>
+        </div>
+        </nav>
+        <nav>
+            <div class="bg-[#FDFDFD] w-screen h-24  flex">
+                <div class="w-[200px] h-24  ml-40   ">
+                    <img src="6.png" alt="" class="w-24 h-24 rounded-full  ">
+                </div>
+                <div class="w-[600px] h-24 ">
+                    <ul class="flex space-x-9 pt-9 text-sm ">
+                        <li>RAMZAN</li>
+                        <li>DRINKS</li>
+                        <li class="">
+                            <Select>
+                                <option value="dish type">DISH TYPE</option>
+                                <option value="pizza">PIZZA</option>
+                                <option value="pasta">PASTA</option>
+                                <option value="cakes">CAKES</option>
+                                <option value="bread">BREAD</option>
+                                <option value="kababs">KABABS</option>
+                            </Select>
+                        </li>
+                        <li>BREAKFAST</li>
+                        <li>DESERTS</li>
+                        <li>LUNCH/DINNER</li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- <img src="3.avif" alt="" class="w-screen h-96  shadow-lg "> -->
+        <section class="bg-cover bg-center h-96" style="background-image: url(3.avif);">
+            <div class=" mx-auto h-full flex items-center justify-center">
+                <div class=" bg-[#A96F5B] opacity-65 p-12 rounded-lg shadow-lg">
+                    <h1 class="animate__bounceIn text-5xl font-bold mb-6 text-center text-black">Welcome to Our Restaurant</h1>
+                    <h2 class="text-xl mb-6 text-center font-bold text-black">Experience the finest dining experience in town</h2>
+                    <div class="flex justify-center">
+                        <a href="#menu" class="bg-black hover:bg-[#FF9000] text-white px-6 py-3 rounded-lg text-lg font-semibold">Explore Menu</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+            <!-- <div class=" mt-11 ">
+            <h1 class="text-[#FF9000] text-5xl font-bold text-center ">Welcome to Our Restaurant</h1>
+            <p class="text-[#FF9000] text-3xl text-center pt-3">Enjoy the finest dining experience</p>
+        </div> -->
+        <section id="about" class="py-16 bg-white">
+            <div class="max-w-6xl mx-auto px-4">
+                <h2 class="text-4xl font-bold text-center mb-12">About Us</h2>
+                <div class="flex flex-col md:flex-row items-center">
+                    <div class="md:w-1/2">
+                        <img class="rounded-lg shadow-lg hover:scale-105" src="10.webp" alt="">
+                    </div>
+                    <div class="md:w-1/2 md:ml-8 mt-8 md:mt-0">
+                        <p class="text-gray-600 text-lg">Our restaurant offers the best dining experience with a variety of dishes made from fresh ingredients. Our chefs are experts in their craft, ensuring every meal is a delightful experience.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+         <!-- Menu Section -->
+    <section id="menu" class="py-16 bg-gray-100">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-12">Menu</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Menu Item 1 -->
+                <div class="bg-white p-6 rounded-lg shadow-lg hover:scale-105">
+                    <img class="h-40 w-full object-cover rounded-t-lg" src="7.avif" alt="">
+                    <h3 class="text-2xl font-bold mt-4">Grill Burger</h3>
+                    <p class="mt-2 text-gray-600">"A succulent, flame-grilled burger topped with fresh ingredients and savory sauces, offering an irresistible burst of flavor in every bite."</p>
+                    <span class="block mt-4 text-xl font-bold">$12.99</span>
+                </div>
+                <!-- Menu Item 2 -->
+                <div class="bg-white p-6 rounded-lg shadow-lg hover:scale-105">
+                    <img class="h-40 w-full object-cover rounded-t-lg" src="8.avif" alt="">
+                    <h3 class="text-2xl font-bold mt-4">Chow mein</h3>
+                    <p class="mt-2 text-gray-600">"Stir-fried noodles tossed with a medley of fresh vegetables, tender meat, and savory Asian sauces, creating a deliciously satisfying dish."</p>
+                    <span class="block mt-4 text-xl font-bold">$15.99</span>
+                </div>
+                <!-- Menu Item 3 -->
+                <div class="bg-white p-6 rounded-lg shadow-lg hover:scale-105 ">
+                    <img class="h-40 w-full object-cover rounded-t-lg" src="9.webp" alt="">
+                    <h3 class="text-2xl font-bold mt-4">Strawberry Pudding</h3>
+                    <p class="mt-2 text-gray-600">"A creamy and luscious dessert infused with the sweet and tangy essence of fresh strawberries, perfect for satisfying your sweet tooth."  </p>
+                    <span class="block mt-4 text-xl font-bold">$18.99</span>
+                </div>
+            </div>
+        </div>
+        <div class="max-w-6xl mx-auto px-4 mt-9">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Menu Item 1 -->
+                <div class="bg-white p-6 rounded-lg shadow-lg hover:scale-105">
+                    <img class="h-40 w-full object-cover rounded-t-lg" src="11.jpg" alt="">
+                    <h3 class="text-2xl font-bold mt-4">Beaf karahi</h3>
+                    <p class="mt-2 text-gray-600">"Beef Karahi is a spicy and savory Pakistani dish made with tender beef chunks cooked in a wok-like pan with tomatoes, green chilies, and aromatic spices."</p>
+                    <span class="block mt-4 text-xl font-bold">$12.99</span>
+                </div>
+                <!-- Menu Item 2 -->
+                <div class="bg-white p-6 rounded-lg shadow-lg hover:scale-105">
+                    <img class="h-40 w-full object-cover rounded-t-lg" src="12.jpg" alt="">
+                    <h3 class="text-2xl font-bold mt-4">peri Peri Pasta</h3>
+                    <p class="mt-2 text-gray-600">"Peri-peri pasta is a zesty dish combining pasta with a spicy, tangy peri-peri sauce, often featuring chicken or vegetables for added flavor."</p>
+                    <span class="block mt-4 text-xl font-bold">$15.99</span>
+                </div>
+                <!-- Menu Item 3 -->
+                <div class="bg-white p-6 rounded-lg shadow-lg hover:scale-105 ">
+                    <img class="h-40 w-full object-cover rounded-t-lg" src="13.jpg" alt="">
+                    <h3 class="text-2xl font-bold mt-4">Nutella Babka bread</h3>
+                    <p class="mt-2 text-gray-600">"Nutella babka bread is a rich, braided sweet bread swirled with luscious Nutella, offering a delightful blend of chocolate and hazelnut flavors."  </p>
+                    <span class="block mt-4 text-xl font-bold">$18.99</span>
+                </div>
+            </div>
+        </div>
+        <div class="max-w-6xl mx-auto px-4 mt-9">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Menu Item 1 -->
+                <div class="bg-white p-6 rounded-lg shadow-lg hover:scale-105">
+                    <img class="h-40 w-full object-cover rounded-t-lg" src="14.jpg" alt="">
+                    <h3 class="text-2xl font-bold mt-4">Mutton karahi</h3>
+                    <p class="mt-2 text-gray-600">"Mutton Karahi is a flavorful Pakistani dish featuring tender mutton pieces cooked with tomatoes, green chilies, and aromatic spices in a wok-like pan."</p>
+                    <span class="block mt-4 text-xl font-bold">$11.99</span>
+                </div>
+                <!-- Menu Item 2 -->
+                <div class="bg-white p-6 rounded-lg shadow-lg hover:scale-105">
+                    <img class="h-40 w-full object-cover rounded-t-lg" src="15.jpg" alt="">
+                    <h3 class="text-2xl font-bold mt-4">Tandoori White Chicken</h3>
+                    <p class="mt-2 text-gray-600">"Tandoori white chicken is a flavorful Indian dish featuring marinated chicken cooked in a tandoor oven, distinguished by its creamy, mildly spiced yogurt-based marinade."</p>
+                    <span class="block mt-4 text-xl font-bold">$20.00</span>
+                </div>
+                <!-- Menu Item 3 -->
+                <div class="bg-white p-6 rounded-lg shadow-lg hover:scale-105 ">
+                    <img class="h-40 w-full object-cover rounded-t-lg" src="16.jpg" alt="">
+                    <h3 class="text-2xl font-bold mt-4">Chicken Biryani</h3>
+                    <p class="mt-2 text-gray-600">"Chicken Biryani is a fragrant and flavorful Indian dish made with layers of spiced chicken, aromatic basmati rice, and saffron, cooked together to perfection."  </p>
+                    <span class="block mt-4 text-xl font-bold">$17.99</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="login" class="py-16 ">
+    <div class="w-screen h-96">
+        <h1 class="text-center font-bold text-4xl">Login</h1>
+         <div class="w-full max-w-xs ml-[520px] mt-10">
+        <form class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
+            <div class="mb-4">
+                <label class="block text-gray-700 text-sm font-bold mb-2" for="username">
+                    Username
+                </label>
+                <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="username" type="text" placeholder="Username">
+            </div>
+            <div class="mb-6">
+                <label class="block text-gray-700 text-sm font-bold mb-2" for="password">
+                    Password
+                </label>
+                <input class="shadow appearance-none border border-red-500 rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline" id="password" type="password" placeholder="******************">
+                <p class="text-red-500 text-xs italic">Please choose a password.</p>
+            </div>
+            <div class="flex items-center justify-between">
+                <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">
+                    Sign In
+                </button>
+            </div>
+        </form>
+    </div>
+        </div>
+        </section>
+        <section id="reviews" class="py-16 bg-white">
+            <div class="container mx-auto">
+                <h2 class="text-4xl font-bold text-center mb-12">What Our Customers Say</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
+                    <!-- review 1 -->
+                    <div class="bg-gray-50 p-6 rounded-lg shadow-lg">
+                        <p class="text-gray-700 mb-4">"The best dining experience I've ever had. The food was amazing and the service was top-notch!"</p>
+                        <p class="font-bold text-lg">- Shahzaib Arshad</p>
+                    </div>
+                    <!-- review 2 -->
+                    <div class="bg-gray-50 p-6 rounded-lg shadow-lg">
+                        <p class="text-gray-700 mb-4">"A wonderful place to enjoy delicious meals with family and friends. Highly recommend!"</p>
+                        <p class="font-bold text-lg">- Sumra Mushtaq</p>
+                    </div>
+                    <!-- review 3 -->
+                    <div class="bg-gray-50 p-6 rounded-lg shadow-lg">
+                        <p class="text-gray-700 mb-4">"Exceptional food and a cozy atmosphere. I will definitely be coming back."</p>
+                        <p class="font-bold text-lg">- Subhan</p>
+                    </div>
+                    <!-- Add more testimonials as needed -->
+                </div>
+            </div>
+        </section>
+        
+
+    <!-- Contact Section -->
+    <section id="contact us" class="py-16 bg-white mt-10">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-12">Contact Us</h2>
+            <div class="flex flex-col md:flex-row md:justify-around">
+                <div class="mb-8 md:mb-0">
+                    <h3 class="text-2xl font-bold">Address</h3>
+                    <p class="mt-2 text-gray-600">123 Main Street, Lahore, Pakistan</p>
+                </div>
+                <div class="mb-8 md:mb-0">
+                    <h3 class="text-2xl font-bold">Phone</h3>
+                    <p class="mt-2 text-gray-600">(123) 456-7890</p>
+                </div>
+                <div>
+                    <h3 class="text-2xl font-bold">Email</h3>
+                    <p class="mt-2 text-gray-600">info@restaurant.com</p>
+                </div>
+            </div>
+        </div>
+    </section>
+   
+
+    <!-- Footer -->
+    <footer class="bg-[#FF9000] text-white py-6">
+        <div class="max-w-6xl mx-auto px-4 text-center">
+            &copy; 2024 Food Restaurant. All rights reserved.
+        </div>
+    </footer>
+</body>
+</html>
